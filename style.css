@@ -1,0 +1,44 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and navigation styling */
+header {
+    background-color: skyblue; /* Sky blue header */
+    padding: 20px;
+}
+
+/* Flex container for the navigation list */
+.nav-list {
+    display: flex;
+    list-style-type: none; /* Remove default bullets */
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start; /* Items in a row */
+    gap: 20px; /* Space between items */
+}
+
+/* Individual list items */
+.nav-list li {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Anchor tags inside list items */
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/* Hover effect */
+.nav-list li a:hover {
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
